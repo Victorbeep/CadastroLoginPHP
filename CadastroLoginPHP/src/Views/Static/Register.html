@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/public/css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <!--formulario com login e senha-->
+
+    <header>
+        <img src="" alt="">
+    </header>
+
+    <nav>
+        <ul>
+            <li>
+                <a href="/">Home</a>
+            </li>
+            <li>Usuarios
+                <ul>
+                    <li><a href="/?pagina=entrar">logar</a></li>
+                    <li><a href="/?pagina=registrar">registrar</a></li>
+                </ul>
+            </li>
+        </ul>
+    </nav>
+
+    <main>
+        <form action="/?pagina=usuario&acao=registrar" method="post">
+            <h3>Registre-se</h3>
+            <input type="text" name="name" placeholder="Nome">
+            <input type="email" name="email" placeholder="Email">
+            <input type="text" name="phone" placeholder="Telefone">
+            <input type="password" name="password" placeholder="Senha">
+            <input type="password" name="password_confirmation" placeholder="Confirme a senha">
+            <button type="submit">Enviar</button>
+        </form>
+    </main>
+</body>
+</html>
